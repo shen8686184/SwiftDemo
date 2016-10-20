@@ -96,6 +96,11 @@
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Matt Neuburg";
+				TargetAttributes = {
+					C9F6064317B94E8700594BBB = {
+						LastSwiftMigration = 0800;
+					};
+				};
 			};
 			buildConfigurationList = C9F6063F17B94E8700594BBB /* Build configuration list for PBXProject "ch17p495keyframeSprite" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -234,6 +239,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -249,6 +255,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
